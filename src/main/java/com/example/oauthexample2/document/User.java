@@ -16,7 +16,6 @@ import java.util.Collections;
 @Document
 @Data
 @RequiredArgsConstructor
-@NoArgsConstructor
 public class User implements UserDetails {
     @Id
     private String id;
